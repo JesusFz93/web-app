@@ -51,6 +51,15 @@ export const Navbar = () => {
                         ThirdScreen
                     </NavLink>
 
+                    <NavLink 
+                        activeClassName="active"
+                        className="nav-item nav-link" 
+                        exact
+                        to="/Ejercicios"
+                    >
+                        Ejercicios
+                    </NavLink>
+
                     <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="/" role="button" aria-haspopup="true" aria-expanded="false">Almacenamiento</a>
                         <div className="dropdown-menu">

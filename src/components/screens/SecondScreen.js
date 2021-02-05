@@ -3,7 +3,7 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useForm } from 'react-hook-form'
-import {appGetFBAction, appUpdateFBAction, appDeleteFBAction, appStartInsertFBAction} from '../actions/appActionsFB'
+import {appGetFBAction, appUpdateFBAction, appDeleteFBAction, appStartInsertFBAction} from '../../actions/appActionsFB'
 
 export const SecondScreen = () => {
 

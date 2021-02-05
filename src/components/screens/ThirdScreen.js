@@ -3,7 +3,7 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useForm } from 'react-hook-form'
-import {appGetLSAction, appUpdateLSAction, appDeleteLSAction, appStartInsertLSAction} from '../actions/appActionsLS'
+import {appGetLSAction, appUpdateLSAction, appDeleteLSAction, appStartInsertLSAction} from '../../actions/appActionsLS'
 
 export const ThirdScreen = () => {
 

@@ -3,7 +3,7 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useForm } from 'react-hook-form'
-import {appGetListaAction, appUpdateListaAction, appDeleteListaAction, appStartInsertListaAction} from '../actions/appActions'
+import {appGetListaAction, appUpdateListaAction, appDeleteListaAction, appStartInsertListaAction} from '../../actions/appActions'
 
 export const FirstScreen = () => {
 
